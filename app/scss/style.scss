@@ -1,0 +1,91 @@
+@import 'vars';
+@import 'global';
+
+.header__top{
+    background-color: #eef1f3;
+    &-inner{
+        
+        display: flex;
+        height: 100px;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.header__become{
+    margin-left: auto;
+    margin-right: 50px;
+    &-btn{
+        background-color: $blue;
+        color: #fff;
+        padding: 12px 19px;
+        border-radius: 20px;
+    }  
+}
+.header__box{
+    display: flex;
+    align-items: center;
+    &-icon{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: #7c7979;
+        margin-right: 20px;
+    }
+    &--users{
+    display: flex;
+    flex-direction: column;
+        &__name{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+        }
+        &__money{
+        font-size: 15px;
+        color: $blue;
+        }
+    }
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    &__list{
+        display: flex;
+        color: #333333;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    li + li {
+        margin-left: 25px;
+    }
+    &__form{
+        position: relative;
+        input{
+            display: block; 
+            width: 360px;
+            height: 45px;
+            border: 1px solid #898f96;
+            border-radius: 20px;
+            font-size: 15px;
+            color: #898f96;
+            padding-left: 24px;
+            padding-right: 82px;
+            outline: none;
+        }
+        button{
+            position: absolute;
+            border: none;
+            background-color: $blue;
+            height: 46px;
+            width: 70px;
+            border-radius: 23px;
+            right: 0;
+            top: 0;
+            outline: none;
+        }
+    }
+}
+
+  
