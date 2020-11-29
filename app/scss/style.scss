@@ -1,6 +1,6 @@
 @import 'vars';
 @import 'global';
-
+@import 'fonts';
 
 // start header
 .header__top{
@@ -793,29 +793,79 @@
     background-color: #212225;
 }
 .character__inner{
-
+    display: flex;
+    justify-content: space-between;
 }
 .character__item{
+    text-align: center;
+    padding-top: 90px;
     &-icon{
         position: relative;
         height: 50px;
-        &::before{
-        content: "\e902";
-        position: absolute;
-        font-family: 'icomoon';
-        color: #feb71d;
-        font-size: 48px;
-        }
+        margin-bottom: 50px;
+        left: -25px;
     }
-    
     &-numbers{
         font-size: 36px;
-        color: #feb71d;
     }
     &-text{
         font-size: 18px;
         color: #fff;
         margin-top: 15px;
+    }
+}
+.icon{
+    &-case{
+        &::before{
+            content: "\e902";
+            position: absolute;
+            font-family: 'icomoon';
+            color: #feb71d;
+            font-size: 48px;
+        }
+    }
+    &-cloud{
+        &::before{
+            content: "\e901";
+            position: absolute;
+            font-family: 'icomoon';
+            color: #58c9e9;
+            font-size: 48px;
+        }
+    }
+    &-smile{
+        &::before{
+            content: "\e900";
+            position: absolute;
+            font-family: 'icomoon';
+            color: #77de51;
+            font-size: 58px;
+            top: -5px;
+            margin-left: -5px;
+        }
+    }
+    &-users{
+        &::before{
+            content: "\e903";
+            position: absolute;
+            font-family: 'icomoon';
+            color: #ff6a6d;
+            font-size: 42px;
+        }
+    }
+}
+.number{
+    &-case{
+        color: #feb71d; 
+    }
+    &-cloud{
+        color: #58c9e9;
+    }
+    &-smile{
+        color: #77de51;
+    }
+    &-users{
+        color: #ff6a6d;
     }
 }
 //end characteristic
