@@ -983,8 +983,53 @@
         left: 50%;
     }
 }
-
 //end choose
-    // background-image: -moz-linear-gradient( 180deg, rgb(6,116,236) 0%, rgb(61,94,215) 46%, rgb(115,71,193) 100%);
-    // background-image: -webkit-linear-gradient( 180deg, rgb(6,116,236) 0%, rgb(61,94,215) 46%, rgb(115,71,193) 100%);
-    // background-image: -ms-linear-gradient( 180deg, rgb(6,116,236) 0%, rgb(61,94,215) 46%, rgb(115,71,193) 100%);
+
+//start twobutton
+.twobutton__wrapper{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: #fff;
+}
+.twobutton__col{
+    height: 560px; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.col1{
+    background-image: url(../images/low-bg-left.jpg);
+}
+.col2{
+    background-image: url(../images/low-bg-right.jpg);
+}
+.twobutton{
+    
+    &-images{
+        height: 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    &-title{
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+    &-text{
+        max-width: 600px;
+        margin: 0 auto 50px;
+    }
+    &-btn{
+        height: 55px;
+        background-color: #fff;
+        color: #0674ec;
+        border: none;
+        outline: none;
+        border-radius: 50px;
+        padding: 0 28px;
+    }
+}
+//end twobutton
