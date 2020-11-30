@@ -1117,3 +1117,110 @@
     margin-bottom: 120px;
 }
 //end clients
+
+//start news
+.news{
+    background-color: #eff1f5;
+    &-title{
+        text-align: center;
+        font-size: 36px;
+        padding-top: 80px;
+        margin-bottom: 35px;
+        span{
+            color: #0674ec;
+        }
+    }
+    &-text{
+        font-size: 16px;
+        color: #555555;
+        max-width: 700px;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+.news__inner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.news__item{
+    background-color: #fff;
+    max-width: 360px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+    margin-bottom: 120px;
+    &-images{
+        background-color: #90bbc4;
+        height: 230px;
+        border-radius: 4px 4px 0 0;
+    }
+    &-title{
+        margin: 28px 0 30px 28px;
+        font-size: 22px;
+        font-weight: 500;
+    }
+    &-text{
+        margin: 0 28px;
+        font-size: 16px;
+        color: #555555;
+        margin-bottom: 30px;
+    }
+    &-bottom{
+        border-top: 1px solid #ececec;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 30px;
+    }
+    &-data{
+        padding: 12px 0 12px 25px ;
+        border-right: 1px solid #ececec;
+        padding-right: 45px;
+        font-size: 15px;
+        color: #999999;
+        position: relative;
+        &::before{
+            content: "\e90a";
+            position: absolute;
+            font-family: 'icomoon';
+            color: #0674ec;
+            font-size: 15px;
+            right: 40px;
+            top: 11px;
+            left: 0;
+        }
+    }
+    &-info{
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        color: #7e7e7e;
+    }
+    &-like{
+        margin-right: 50px;
+        position: relative;
+        &::before{
+            content: "\e909";
+            position: absolute;
+            font-family: 'icomoon';
+            color: #7e7e7e;
+            font-size: 15px;
+            right: 40px;
+            top: 0;
+            left: -23px;
+        }
+    }
+    &-glace{
+        position: relative;
+        &::before{
+            content: "\e90b";
+            position: absolute;
+            font-family: 'icomoon';
+            color: #7e7e7e;
+            font-size: 15px;
+            right: 40px;
+            top: 0;
+            left: -23px;
+        }
+    }
+}
+//end news

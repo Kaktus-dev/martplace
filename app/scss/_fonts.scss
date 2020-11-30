@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?xyk6z3');
-  src:  url('../fonts/icomoon.eot?xyk6z3#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?xyk6z3') format('truetype'),
-    url('../fonts/icomoon.woff?xyk6z3') format('woff'),
-    url('../fonts/icomoon.svg?xyk6z3#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?xt2q0y');
+  src:  url('../fonts/icomoon.eot?xt2q0y#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?xt2q0y') format('truetype'),
+    url('../fonts/icomoon.woff?xt2q0y') format('woff'),
+    url('../fonts/icomoon.svg?xt2q0y#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-alarmclock:before {
+  content: "\e90a";
+}
+.icon-clock:before {
+  content: "\e90a";
+}
+.icon-eye:before {
+  content: "\e90b";
+}
 .icon-bubble:before {
   content: "\e909";
 }
