@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?52w15x');
-  src:  url('../fonts/icomoon.eot?52w15x#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?52w15x') format('truetype'),
-    url('../fonts/icomoon.woff?52w15x') format('woff'),
-    url('../fonts/icomoon.svg?52w15x#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?xyk6z3');
+  src:  url('../fonts/icomoon.eot?xyk6z3#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?xyk6z3') format('truetype'),
+    url('../fonts/icomoon.woff?xyk6z3') format('woff'),
+    url('../fonts/icomoon.svg?xyk6z3#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-bubble:before {
+  content: "\e909";
+}
+.icon-lock:before {
+  content: "\e906";
+}
+.icon-certificate:before {
+  content: "\e907";
+}
+.icon-winking-face:before {
+  content: "\e900";
+}
 .icon-insert_chart_outlined:before {
   content: "\e904";
 }
@@ -36,15 +48,6 @@
 }
 .icon-group:before {
   content: "\e903";
-}
-.icon-lock:before {
-  content: "\e906";
-}
-.icon-certificate:before {
-  content: "\e907";
-}
-.icon-winking-face:before {
-  content: "\e900";
 }
 .icon-old-phone:before {
   content: "\e908";

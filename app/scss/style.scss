@@ -1006,7 +1006,6 @@
     background-image: url(../images/low-bg-right.jpg);
 }
 .twobutton{
-    
     &-images{
         height: 100px;
         background-position: center;
@@ -1033,3 +1032,88 @@
     }
 }
 //end twobutton
+
+//start clients
+.clients{
+    text-align: center;
+    &-title{
+        font-size: 36px;
+        margin-top: 120px;
+        margin-bottom: 35px;
+        span{
+        color: #0674ec;
+        }
+    }
+    &-text{
+        font-size: 16px;
+        color: #555555;
+        max-width: 680px;
+        margin: 0 auto 60px;
+    }
+    &-inner{
+        margin-bottom: 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.clients__item{
+    max-width: 555px;
+    width: 100%;
+    border-radius: 0 4px 4px 0;
+    box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+    border-left: 2px solid #0674ec;
+    padding: 50px 0;
+    text-align: left;
+    &-row{
+        display: flex;
+        justify-content: start;
+        position: relative;
+        &::before{
+            content: "\e909";
+            position: absolute;
+            font-family: 'icomoon';
+            color: #e8e8e8;
+            font-size: 60px;
+            right: 40px;
+            top: 0;
+        }
+    }
+    &-icon{
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        background-color: #808080;
+        margin-left: 40px;
+        margin-bottom: 30px;
+    }
+    &-col{
+        margin-left: 20px;
+        
+    }
+    &-name{
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    &-class{
+        font-size: 16px;
+        color: #555555;
+        margin-top: 14px;
+    }
+    &-text{
+        font-size: 16px;
+        margin-left: 40px;
+        max-width: 475px;
+        color: #555555;
+    }
+}
+.clients-down-btn{
+    height: 55px;
+    background-color: #0674ec;
+    color: #fff;
+    border-radius: 30px;
+    padding: 0 35px;
+    border: none;
+    outline: none;
+    margin-bottom: 120px;
+}
+//end clients
